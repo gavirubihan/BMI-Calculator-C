@@ -12,34 +12,6 @@ This BMI Calculator is a simple console-based application written in C. It calcu
   - Yellow (`Color 06`) for overweight
   - Green (`Color 0A`) for a healthy range
 
-## Getting Started
-
-### Prerequisites
-
-To compile and run this program, you need:
-- A C compiler, like `gcc`.
-
-### Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/yourusername/bmi-calculator-c.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd bmi-calculator-c
-    ```
-3. Compile the program:
-    ```bash
-    gcc bmi_calculator.c -o bmi_calculator -lm
-    ```
-    > Note: `-lm` is used to link the math library required for the `pow` function.
-
-4. Run the program:
-    ```bash
-    ./bmi_calculator
-    ```
-
 ## Usage
 
 1. When prompted, enter your age, name, weight (in kilograms), and height (in meters).
